@@ -783,12 +783,12 @@ ul.row{
 }
 
 .card-work:hover .card-image{
-  transform: scale(1.2);
+  transition: scale(1.2);
   transition-property: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer{
-  transform: scale(0.95);
+  transition: scale(0.95);
 }
 
 
