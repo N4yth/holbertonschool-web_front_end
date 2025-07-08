@@ -531,12 +531,12 @@ a:active {
 }
 
 .nav .nav-link{
-  color:var(--nav-item-link-hover)
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover{
-  display: block;
-  padding: 0.5rem 1rem;
+  color:var(--nav-item-link-hover)
 }
 
 .container {
