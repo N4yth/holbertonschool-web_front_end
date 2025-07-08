@@ -30,7 +30,7 @@ html{
 }
 
 body{
-    line-height: var(--line-height-small);
+    line-height: var(--line-height-base);
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
