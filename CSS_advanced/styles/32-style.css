@@ -734,7 +734,7 @@ ul.row{
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  transition-property: var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -783,12 +783,12 @@ ul.row{
 }
 
 .card-work:hover .card-image{
-  transition: scale(1.2);
-  transition-property: var(--transition-duration) var(--transition-cubic-bezier);
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer{
-  transition: scale(0.95);
+  transform: scale(0.95);
 }
 
 
