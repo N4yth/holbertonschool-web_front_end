@@ -569,11 +569,19 @@ ul.row{
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
+}
+
+.nav .nav-item::before{
   background-color: var(--color-primary);
   width: 100%;
 }
 
 .nav .nav-link{
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav .nav-link::before{
   content: "";
   position: absolute;
   top: 0;
@@ -581,8 +589,6 @@ ul.row{
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  display: block;
-  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover{
